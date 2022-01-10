@@ -3,31 +3,61 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>賴勁瑋個人作品集 Chinwei Lai</title>
+    <title>賴勁瑋 - 個人作品集 Chinwei Lai's Personal Work Collection</title>
+    <meta name="description" content="專注於使用者介面與經驗設計">
+    <meta name="theme-color" content="#f0f0f0">
+    <link rel="icon" type="png" href="_img/favicon.png" />
 
+    <!-- OG -->
+    <meta property="og:title" content="賴勁瑋 - 個人作品集 Chinwei Lai's Personal Work Collection"/>
+    <meta property="og:description" content="專注於使用者介面與經驗設計" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="_img/og-image.jpg">
+    
     <!-- CSS -->
-    <!-- <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="_css/normalize.css" rel="stylesheet">
     <link href="_css/main.css" rel="stylesheet">
 
   </head>
-  <body>
-  
-    <?php include("_header.php"); ?>
+  <body class="index">
+
+<nav>
+  <div class="nav">
+    <div class="container">
+
+        <div class="btn-close btn"><a href="javascript:history.back()"></a></div>
+
+
+        <div class="contact-info">
+
+          <ul id="contact-list" class="contact-list">
+            <li class="contact-btn btn"><h4 class="h4">chungplayo@gmail.com ↗</h4><a href="mailto:chungplayo@gmail.com"></a></li>
+            <li class="contact-btn btn"><h4 class="h4">+886-924-152-727 ↗</h4><a href="tel:+886924152727"></a></li>
+          </ul>
+
+          <div class="contact-btn btn"><h4 id="contact-btn" class="h4">聯絡我</h4></div>
+
+        </div>
+        
+    </div>
+  </div>
+</nav>
 
     <section class="section-block index-block">
       <div class="container">
-        <div class="animoji"><img src="_img/animoji.png"></div>
+        <div class="animoji"><img src="_img/memoji.png"></div>
         <div class="index-info">
           <div class="index-img"><img src="_img/mecircle.png"></div>
           <h1 id="h0">
             你好! 我是勁瑋</br>
-            致力於使用者介面與經驗設計
+            專注於使用者介面設計
           </h1>
-          <p class="fontsize-16 text">
-            定居新北市板橋區，2018年在一間網頁設計公司擔任網頁設計師的三年後，短暫的體驗到在澳洲生活的夢想；而現在我正在尋找一個能夠發揮專長以及一起互相成長的環境。你可以在這邊看到更多我的介紹，以下是我完成的專案。
+          <p class="text">
+            從 2013年開始接觸互動設計，並在 2015年轉換到使用者介面設計與網頁前端工程，持續學習相關領域，在介面設計業界有兩年的實作經驗。
           </p>
+          
+          <div class="btn btn-outline"><h4 class="h4">關於我</h4><a href="about.php"></a></div>
         </div>
       </div>
     </section>
@@ -43,9 +73,9 @@
             </div>
 
             <div class="info">
-              <div class="time fontsize-16 text">2017</div>
+              <h4 class="h4">2017</h4>
               <h2 class="h2">臺北 白晝之夜</h2>
-              <div class="role fontsize-14 text">專案管理、介面設計</div>
+              <div class="role text">專案管理、介面設計</div>
             </div>
 
             <a href="project01.php"></a>
@@ -59,9 +89,9 @@
             </div>
 
             <div class="info">
-              <div class="time fontsize-16 text">2017</div>
+              <h4 class="h4">2017</h4>
               <h2 class="h2">輔仁輔人</h2>
-              <div class="role fontsize-14 text">專案管理、介面設計</div>
+              <div class="role text">專案管理、介面設計</div>
             </div>
 
             <a href="project02.php"></a>
@@ -75,9 +105,9 @@
             </div>
 
             <div class="info">
-              <div class="time fontsize-16 text">2017</div>
+              <h4 class="h4">2017</h4>
               <h2 class="h2">Minifeast <span>金工銀飾</span></h2>
-              <div class="role fontsize-14 text">專案管理、介面設計、前端工程</div>
+              <div class="role text">專案管理、介面設計、前端工程</div>
             </div>
 
             <a href="project03.php"></a>
@@ -91,9 +121,9 @@
             </div>
 
             <div class="info">
-              <div class="time fontsize-16 text">2018</div>
+              <h4 class="h4">2018</h4>
               <h2 class="h2">臺灣大學 <span>國際華語研習所</span></h2>
-              <div class="role fontsize-14 text">設計提案、介面設計</div>
+              <div class="role text">設計提案、介面設計</div>
             </div>
 
             <a href="project04.php"></a>
@@ -105,15 +135,7 @@
       
     </section>
 
-    <?php include("_footer.php"); ?>
-
-
-    <!-- <div class="contact-btn btn">
-      <h4 class="h4">聯絡我</h4>
-      <a href=""></a>
-    </div> -->
-
-    <!-- <script src="assets/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script type="text/javascript" src="_js/main.js"></script>
 
   </body>
 </html>
