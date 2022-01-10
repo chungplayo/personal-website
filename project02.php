@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>輔仁輔人｜賴勁瑋 - 個人作品集 Chinwei Lai's Personal Work Collection</title>
+    <meta name="description" content="專注於使用者介面與經驗設計">
+    <meta name="theme-color" content="#f0f0f0">
+    <link rel="icon" type="png" href="_img/favicon.png" />
+
+    <!-- OG -->
+    <meta property="og:title" content="輔仁輔人｜賴勁瑋 - 個人作品集 Chinwei Lai's Personal Work Collection"/>
+    <meta property="og:description" content="輔仁輔人為輔仁大學設置的實時溝通交流平台，使用者可以透過行動裝置隨時隨地了解輔仁大學發佈的各項校園活動與校內資訊服務，有利於增加使用者與校園事務的觸及。" />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="_img/og-image.jpg">
+
+    <!-- CSS -->
+    <link href="_css/normalize.css" rel="stylesheet">
+    <link href="_css/main.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <?php include("_header.php"); ?> 
+
+    <main>
+      <article class="project">
+
+        <section class="section-block">
+          <div class="container">
+            <div class="text-block main-text">
+              <h4 class="h4">2017</h4>
+              <h1 class="h1">輔仁輔人</h1>
+              <p class="text">
+                輔仁輔人為輔仁大學設置的實時溝通交流平台，使用者可以透過行動裝置隨時隨地了解輔仁大學發佈的各項校園活動與校內資訊服務，有利於增加使用者與校園事務的觸及。
+              </p>
+              <div class="project-detail">
+                <div class="item">
+                  <h5 class="h5">客戶</h5>
+                  <p class="text">輔仁大學 公共事務處</p>
+                </div>
+                <div class="item">
+                  <h5 class="h5">團隊</h5>
+                  <p class="text">山川久也設計有限公司</p>
+                </div>
+                <div class="item">
+                  <h5 class="h5">角色</h5>
+                  <p class="text">專案管理、介面設計</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="img-rounded">
+              <img src="_img/project02/main.png">
+            </div>
+
+          </div>
+        </section>
+
+        <section class="section-block project-text">
+          <div class="container">
+            <div class="text-block">
+              <h3 class="h3">
+                校方希望除了官方網站及校園內公佈欄外，製作一個移動裝置的應用程式，讓校園準備的資訊活動觸及到更多潛在使用者，使之提升參與度。
+              </h3>
+              <p class="text">
+                 客戶需要可以新增分類的文章系統，提供使用者篩選資訊；另外要將標有活動參與類的公告另外拉出獨立頁面，並建立報名表單的系統，方便校方在後台統整資料、瞭解目標受眾；而校方在傳遞資訊的同時，也希望讓用戶可以透過App發表看法，提供一個及時的回饋平台。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="grid-2 grid">
+
+              <div class="item img-rounded">
+                <img src="_img/project02/04.png">
+              </div>
+
+              <div class="item img-rounded">
+                <img src="_img/project02/05.png">
+              </div>
+
+              <div class="item img-rounded">
+                <img src="_img/project02/06.png">
+              </div>
+
+              <div class="item img-rounded">
+                <img src="_img/project02/07.png">
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="grid-1 grid">
+
+              <div class="item img-rounded">
+                <img src="_img/project02/03.png">
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="grid grid-2">
+
+              <div class="item img-rounded">
+                <img src="_img/project02/01.png">
+              </div>
+
+              <div class="item img-rounded">
+                <img src="_img/project02/02.png">
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block project-text">
+          <div class="container">
+            <div class="text-block">
+              <h3 class="h3">
+                考慮到受眾使用的移動裝置平台，在操作習慣依照iOS及Android官方建議方式做設定，而安排資訊架構上也因此有著不同的畫面配置。
+              </h3>
+              <p class="text">
+                以iOS用戶習慣的Tab bar來作為導航按鈕，讓使用者一眼清楚看見所有目標，對於一個新App來說是重要的一部份；當進入其中一項主線後，以消息活動為例，在上方會以Tab呈現消息以及活動訊息兩條支線，並可以利用左右滑動頁面來切換，讓使用者可以維持單手來瀏覽資訊。
+              </p>
+              <p class="text">
+                雖說Material Design在2016年時有推出Bottom Navigation的應用，可以使這次的介面及行為設計維持一致，但考量到設計一致可能導致畫面中的層級關係、重複性標題的問題，使用戶產生混淆，比較起新推出的底部導航，Android用戶還是習慣使用Top bar中漢堡按鈕去尋找目標。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block">
+          <div class="container">
+            <div class="grid-2 grid">
+
+              <div class="item img-rounded">
+                <img src="_img/project02/08.png">
+              </div>
+
+              <div class="item img-rounded">
+                <img src="_img/project02/09.png">
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </main>
+
+    <script src="_js/main.js"></script>
+
+  </body>
+</html>
